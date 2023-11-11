@@ -4,7 +4,7 @@ const app = express()
 const port = 4000
 
 app.get('/', async (req, res) => {
-    res.json('Hello World!')
+    res.json({ message: 'Hello World!' })
 
 })
 
